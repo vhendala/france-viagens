@@ -62,9 +62,9 @@ a {
   justify-content: end;
 }
 
-.menu li a {
+/* .menu li a {
 
-}
+} */
 
 #conteudo {
   min-height: calc(100vh - 240px);
@@ -93,7 +93,7 @@ h2 {
   color: #6F9F9C;
 }
 
-.lista-eventos {
+.lista-destinos {
   display: flex;
   flex-direction: row;
   /*  PRATICANDO FLEXBOX */
@@ -104,7 +104,7 @@ h2 {
   padding: 20px 0 40px 0;
 }
 
-.lista-eventos li {
+.lista-destinos li {
   width: 360px;
   min-height: 320px;
   background-color: #FFFFFF;
@@ -113,11 +113,11 @@ h2 {
   box-shadow: 0px 0px 10px 1px rgba(0,0,0,0.3);
 }
 
-.lista-eventos li:first-child {
+.lista-destinos li:first-child {
   background-color: gold;
 }
 
-.lista-eventos h3 {
+.lista-destinos h3 {
   font-family: 'Playfair Display', serif;
   font-size: 18px;
   padding: 15px 15px 0 15px;
@@ -125,13 +125,13 @@ h2 {
   line-height: 150%; /* com porcentagem também funciona */
 }
 
-.lista-eventos img {
+.lista-destinos img {
   padding: 15px;
   width: calc(100% - 30px); /* o calc serve para fazer calculos matemáticos de valores */
   aspect-ratio: 16/9;
 }
 
-.lista-eventos a {
+.lista-destinos a {
   display: block;
   margin: 15px;
   width: calc(100% - 30px);
@@ -144,7 +144,7 @@ h2 {
   cursor: pointer;
 }
 
-.lista-eventos button:hover {
+.lista-destinos button:hover {
   background-color: #6F9F9C;
 }
 
